@@ -17,6 +17,7 @@ Encore
         config.useBuiltIns = 'usage';
         config.corejs = '3.23';
     })
+    .enablePostCssLoader()
     .enableSassLoader()
     .enableTypeScriptLoader()
     .enableIntegrityHashes(Encore.isProduction())
